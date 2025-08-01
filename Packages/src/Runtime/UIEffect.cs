@@ -1350,11 +1350,11 @@ namespace Coffee.UIEffects
 
         public Color detailColor
         {
-            get => m_EdgeColor;
+            get => m_DetailColor;
             set
             {
-                if (m_EdgeColor == value) return;
-                context.m_DetailColor = m_EdgeColor = value;
+                if (m_DetailColor == value) return;
+                context.m_DetailColor = m_DetailColor = value;
                 SetMaterialDirty();
             }
         }
